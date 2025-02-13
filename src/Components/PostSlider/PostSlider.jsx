@@ -1,9 +1,8 @@
 import React from "react";
-import Slider from "react-slick";
+import Slider from "react-slick";//npm install react-slick slick-carousel
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { MdArrowBack, MdArrowForward } from "react-icons/md";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";//npm i react-icons
 const PrevArrow = ({ onClick }) => (
     <button 
         className="absolute left-[30px] top-1/2 transform -translate-y-1/2 z-10 bg-black/50 text-white p-2 shadow-md hover:bg-gray-700"

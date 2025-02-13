@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MdArrowDropDown, MdMenu, MdClose } from "react-icons/md";
+import { MdArrowDropDown, MdMenu, MdClose } from "react-icons/md";//npm i react-icons
 
 const Navbar = () => {
     const [openDropdown, setOpenDropdown] = useState(null);
